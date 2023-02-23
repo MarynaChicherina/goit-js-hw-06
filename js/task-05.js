@@ -3,7 +3,7 @@
    const nameLabel = document.querySelector('span#name-output');
 
 
-input.addEventListener('change', onInputChange);
+input.addEventListener('input', onInputChange);
 
 
 function onInputChange(event){
